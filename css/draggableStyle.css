@@ -1,0 +1,79 @@
+table{
+    width: 99%;
+    text-align: left;
+}
+
+#mioXD {
+    border-style:solid;
+    border-width:7px;
+    border-color:#f56;
+    display: inline-block;
+    float:left;
+    text-align: center;
+}
+#contenedorTablas {
+    display: inline-block;
+    border-style:solid;
+    border-width:5px;
+    border-color:#0f9;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 5px;
+}
+#mapeo {
+    border-style:solid;
+    border-width:5px;
+    border-color:#ff9900;
+    text-align: right;
+
+}
+.campo {
+    border-style:solid;
+    border-width:5px;
+    border-color:#62f;
+    border-radius: 15px;
+    width: 90px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.receptorTabla {
+    border-style:solid;
+    border-width:5px;
+    border-right-width: 0;
+    border-color:#653;
+    width: 95px;
+    padding: 5px;
+}
+.contenedor {
+    border-style:solid;
+    border-width:5px;
+    border-color:#40E0D0;
+    border-radius: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+a.campo{
+    color:#000;
+    text-decoration: none;
+}
+
+.boton{
+    display: inline-block;
+    text-decoration:none;
+    color: #000;
+    border: 2.4px;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.boton:hover{
+    background: #DDA;
+}

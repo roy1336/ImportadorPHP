@@ -1,0 +1,114 @@
+.boton{
+    display:inline-block;
+    text-decoration:none;
+    color:balck;
+    border:2.4px;
+    border-radius: 15px;
+    border-style:solid;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.boton:hover{
+    background: #DDA;
+}
+
+.boton:active{
+    background: #FFC;
+    color:#006;
+}
+
+.boton:visited{
+    text-decoration:none;
+    color:balck;
+}
+
+#acciones{
+    text-align:center;
+    position: fixed;
+    padding-bottom: 1%;
+    padding-left:1%;
+
+}
+
+#espacio{
+    position: relative;
+    display:inline-block;
+}
+
+#vistaPrevia{
+    margin-left: 20%;
+    display:inline-block;
+}
+
+#masRegistrosInsertar{
+    margin-left: 10%;
+    margin-bottom: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#confirmacion{
+    margin-left: 20%;
+    margin-bottom: 1.2%;
+    margin-top:1%;
+}
+
+#verTodo{
+    margin-left: 15%;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin:0px;
+    width: 450px;
+    padding:2px;
+    border:1px solid #000000;
+    border-top-style: none;
+}
+
+td, th{
+    vertical-align:middle;
+    background-color:#cccccc;
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+    padding:7px;
+    font-size:10px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}
+
+tr:last-child td{
+    border-width:0px 1px 1px 0px;
+}
+
+tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}
+
+th{
+    background:-o-linear-gradient(bottom, #003366 5%, #003f7f 100%);
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #003366), color-stop(1, #003f7f) );
+    background:-moz-linear-gradient( center top, #003366 5%, #003f7f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#003366", endColorstr="#003f7f");
+    background: -o-linear-gradient(top,#003366,003f7f);
+
+    background-color:#003366;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+tr:first-child th:first-child{
+    border-width:0px 0px 1px 0px;
+}
+tr:first-child th:last-child{
+    border-width:0px 0px 1px 1px;
+}
